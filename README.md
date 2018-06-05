@@ -9,8 +9,8 @@
 I'd like to thank the team "Project Zetsubou" and "ThunderGemios10",
 as without their help, this version of the tool wouldn't have been possible.
 
-Project Zetsubou: https://danganronpa.wordpress.com/
-ThunderGemios10: https://github.com/ThunderGemios10/The-Super-Duper-Script-Editor-2
+- Project Zetsubou: https://danganronpa.wordpress.com/
+- ThunderGemios10: https://github.com/ThunderGemios10/The-Super-Duper-Script-Editor-2
 
 
 If you're planning on translating DR2, please consider there are
