@@ -1,5 +1,5 @@
 # SUPER DUPER SCRIPT EDITOR 2 (PORTABLE - STEAM)
-## VERSION: 1.0 (Published on 05 JUNE 2018)
+## VERSION: 1.1 (Published on 15 JUNE 2018)
 
 ## Index
 - Brief history of the tool
@@ -21,6 +21,7 @@ projects already in process of working on it, which you can also join.
 - Spanish: https://transcene.net (by TranScene)
 - French: https://equipemirai.com/ (by Mirai Team)
 - Russian: http://anivisual.net/board/1-1-0-877 (By horagema.exe)
+- Portuguese: http://kibouproject-br.blogspot.com/ (by Kibou Project)
 
 
 # Brief history of the tool
@@ -39,7 +40,7 @@ dropped the project.
 Then I (Liquid S!) thought about using the ThunderGemios10's version to translate
 DR2 for STEAM in italian.
 Therefore I had to import the STEAM texts and audio in the tool (while preserving
-the japanese texts so that translators can check the original dialogues), complete
+the Japanese texts so that translators can check the original dialogues), complete
 the GFX folder BlackDragon gave to me (by adding new fonts and all missing image files)
 and make the tool "portable"*.
 
@@ -52,41 +53,42 @@ you don't need a DR2's ISO to setup the editor.
 # How to install the tool
 
 0) Download the editor from https://github.com/Liquid-S/SDSE2-Portable/releases
-   and put it wherever you want, just be careful to NOT USE special characters in the PATH,
-   only a limited set of ASCII characters are supported and they include alphanumeric
-   characters and digits like ‘.’ ‘\’ ‘/‘ ‘:’ and spaces.
+   and put it wherever you want, just be careful NOT TO USE special characters
+   in the PATH, only a limited set of ASCII characters are supported and they
+   include alphanumeric characters and digits like ‘.’ ‘\’ ‘/‘ ‘:’ and spaces.
    
-   Ex. "D:\DANGANRONPAè\TOOLS\SDSE2_PORTABLE\" IS NOT OKAY, the editor isn't going to work because
-   of that "è".
+   Ex. "D:\DANGANRONPAè\TOOLS\SDSE2_PORTABLE\" IS NOT OKAY,
+   the editor isn't going to work because of that "è".
    "D:\DANGANRONPA\TOOLS\SDSE2_PORTABLE\" is okay.
 
 ## IF YOU ARE ON WINDOWS
 
-1) Open the "0 INSTALL THIS" folder.
+1) Install Java if you don't have it in your computer.
+    * <http://www.java.com>
+    * Must be available on PATH on Windows
 
-2) Install the file "python-2.7.15.msi". Make sure to enable the option
-"ADD PYTHON-EXE TO PATH". Check the image "0 - ADD PYTHON-EXE TO PATH.png"
-that comes with this "README".
+2) Start "(0)Open_Editor.bat".
 
-3) Install "PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32.exe" and "pyenchant-1.6.6.win32.exe".
+3) Select "Show the settings menu" and in "Spellcheck" select your language.
+   If your language isn't in the list, you need to search on internet
+   a dictionary compatible with "myspell" and add it to:
+"SDSE2_PORTABLE_vers_x-x\tools\python\Lib\site-packages\enchant\share\enchant\myspell".
 
-4) Open the "editor.pyw" file found in the main folder of the tool.
+  Now go to the "File Locations" label and compile everything as in the image
+  "0 HOW TO INSTALL THE EDITOR\0 - File Locations.png".
+  At "ISO FILE", it's not asking for the game ISO, but where should the translated
+  ISO be saved. (This is only for configuration of the tool).
 
-5) Select "Show the settings menu" and go to the "File Locations" label. Now compile
-everything as in the image "0 - File Locations.png" that comes with this "README".
-At "ISO FILE", it's not asking for the game ISO, but where should the translated
-ISO be saved. (This is only for configuration of the tool).
+4) Once you've compiled everything, click "Apply" and then "OK".
 
-6) Once you've compiled everything, click "Apply" and then "OK".
-
-7) Open once again the "editor.pyw" file. The tool should work now.
-The first time it might take a bit longer.
+5) Open once again the "(0)Open_Editor.bat" file. The tool should work now.
+   The first time it might take a bit longer.
 
 ---------------------------------
 
 ## IF YOU ARE ON MAC OR LINUX
 
-1) Search on the web these programs and install them:
+1) Search on internet these programs and install them:
 
 * Python 2.7
     * <http://www.python.org/download/>
@@ -95,24 +97,27 @@ The first time it might take a bit longer.
     * <http://www.riverbankcomputing.co.uk/software/pyqt/download>
 * PyEnchant
     * <http://packages.python.org/pyenchant/download.html>
-* Sony ATRAC3 Codec
-    * <http://www.codecs.com/Sony_ATRAC3_Audio_Codec_download.htm>
-    * Required to play voices.
 * Java
     * <http://www.java.com>
     * Must be available on PATH on Windows
 	
-4) Open the "editor.pyw" file found in the main folder of the tool.
+2) Open the "editor.pyw" file found in the main folder of the tool.
 
-5) Select "Show the settings menu" and go to the "File Locations" label. Now compile
-everything as in the image "0 - File Locations.png" that comes with this "README".
-At "ISO FILE", it's not asking for the game ISO, but where should the translated
-ISO be saved. (This is only for configuration of the tool).
+3) Select "Show the settings menu" and in "Spellcheck" select your language.
+   If your language isn't in the list, you need to search on internet
+   a dictionary compatible with "myspell" and add it to:
+   "Python27\Lib\site-packages\enchant\share\enchant\myspell".
+   You need to search for the "Python27" folder first.
 
-6) Once you've compiled everything, click "Apply" and then "OK".
+   Now go to the "File Locations" label and compile everything as in the image
+   "0 HOW TO INSTALL THE EDITOR\0 - File Locations.png".
+   At "ISO FILE", it's not asking for the game ISO, but where should the translated
+   ISO be saved. (This is only for configuration of the tool).
 
-7) Open once again the "editor.pyw" file. The tool should work now.
-The first time it might take a bit longer.
+4) Once you've compiled everything, click "Apply" and then "OK".
+
+5) Open once again the "editor.pyw" file. The tool should work now.
+   The first time it might take a bit l  onger.
 
 
 # How to re-insert the translated texts back into Steam
